@@ -1,14 +1,16 @@
-# Java Memory Management - Assignment 2
+## ✅ Rust `README.md`
 
-This project demonstrates memory management in Java using object allocation, method calls, and garbage collection. It highlights how Java uses automatic memory management via the JVM and how objects become eligible for garbage collection when dereferenced.
+```markdown
+# Rust Memory Management - Assignment 2
+
+This Rust project demonstrates memory management concepts such as ownership, borrowing, and stack vs. heap allocation. It shows how Rust prevents memory leaks and dangling pointers at compile time through its unique ownership model.
 
 ## 📄 File
-- `memory_assignment2.java`: Contains the main program
+- `main.rs`: Contains the main program logic
 
 ## 🚀 How to Run
 
-From the terminal:
+Make sure you have Rust and Cargo installed. Then:
 
 ```bash
-javac memory_assignment2.java
-java memory_assignment2
+cargo run
