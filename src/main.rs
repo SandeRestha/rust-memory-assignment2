@@ -1,6 +1,6 @@
 fn main() {
     // Allocate a String on the heap
-    let s = String::from("Hello, Rust");
+    let s = String::from("Hello, this is Memory Management in Rust!");
 
     // Pass an immutable reference (&s) to the function — this is borrowing
     print_string(&s);
