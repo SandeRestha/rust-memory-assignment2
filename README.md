@@ -20,6 +20,8 @@ fn print_string(data: &String) {
     println!("Borrowed: {}", data);
 }
 
+```
+
 ## File
 - `main.rs`: Contains the main program logic
 
